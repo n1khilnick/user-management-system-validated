@@ -22,27 +22,27 @@
 #### API Reference:
 
 * Add User
-```http
+```*.sh-session
   http://localhost:8080/addUsers
 ```
 
 * Get all Users
-```http
+```*.sh-session
   http://localhost:8080/getAllUser
 ```
 
 * Get User By ID
-```http
+```*.sh-session
   http://localhost:8080/getUserById/{userID}
 ```
 
 * Update User's Email and Phone No. By ID
-```http
+```*.sh-session
   http://localhost:8080/updateUserInfo/{userID}/{emailID}/{phoneNum}
 ```
 
 * Delete User by ID
-```http
+```*.sh-session
   http://localhost:8080/deleteUser/{userID}
 ```
 
